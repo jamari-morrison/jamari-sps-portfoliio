@@ -1,3 +1,6 @@
+//Handles the animation for the hamburger menu and nav bar that are displayed when the site is in vertical (mobile) mode
+//Main job is to tell wether the hamburger menu and nav bar should be in their opened or closed state
+
 const menuBtn = document.querySelector('.menu-btn');
 const navBar = document.querySelector('.nav-bar');
 const contactMe = document.querySelector('.contactMe');
