@@ -1,12 +1,23 @@
-# Google Software Product Sprint
+# Jamari Morrison Portfolio
 
-This repo contains the projects you'll work on throughout SPS.
+This branch contains the code I'll be working on in Google Software Product Sprint for Summer 2021! This project is also hosted at my personal website: www.jamari.tech 
 
-To get started:
+## Resources 📚
+The following are resources I used to learn the tools in this project: <br /> <br />
 
-- Login to [Google Cloud Shell](https://ssh.cloud.google.com/cloudshell/editor)
-- Clone this repo: `cd; git clone https://github.com/google/software-product-sprint.git`
-- Open the GitHub setup walkthrough: `teachme ~/software-product-sprint/walkthroughs/week-0-setup/github-setup-walkthrough.md`
-  - If the tutorial panel does not open or display the walkthrough contents, try refreshing the page.
+### HTML/CSS:
+https://www.w3schools.com/ <br />
+https://css-tricks.com/
 
-Then follow the on-screen instructions to set up your repo.
+### HTML/CSS Form:
+https://www.youtube.com/watch?v=f0DcnrpeBv8&t=392s
+
+### JavaScript Smooth Scrolling (for safari): 
+https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+
+### CSS Animation: 
+https://www.youtube.com/watch?v=dIyVTjJAkLw <br />
+https://www.youtube.com/watch?v=5RoXCs54CN8
+
+### And of course: 
+https://stackoverflow.com/
