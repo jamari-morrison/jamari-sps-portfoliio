@@ -45,7 +45,7 @@
     <h2 class="wrapper">
         <a href="https://www.linkedin.com/in/jamari-morrison-59247b194/" target="_blank"><img class="linkedin"
                 src="/images/linkedin.png" alt="aww"></a>
-        <a href="https://github.com/RedCater" target="_blank"><img class="github" src="/images/github.png"></a>
+        <a href="https://github.com/RedCater" target="_blank"><img class="github" src="/images/github.png" alt="github"></a>
 
         <a href="127.0.0.1:5500/CSSE232HW4"><span class="resume">RESUME</span></a>
         <a><span class="contactMe">CONTACT ME</span></a>
@@ -54,9 +54,10 @@
     <!-- Note: each list item is a floating box in the background -->
     <div class="animation-area">
         <div class="title">Hi, I'm Jamari.</div>
-        <div class="randomMessageDiv" >
-            <p class="randomMessageTxt">Click the button to get a new message!</p> 
+        <div  class="randomMessageDiv">
+            <p id="random-message-txt" class="randomMessageTxt">Click the button to get a new message!</p> 
             <div class="randomMessageButton" onclick="randomizeMessage();">New message</div> 
+        
         </div>
 
         <ul id="box-area">
@@ -207,12 +208,12 @@
             <h1>Let's talk (not yet functional)</h1>
             <div class="txtb">
                 <label>Name/Company</label>
-                <input type="text" name="" value="" placeholder="Enter name/Company">
+                <input type="text" name="placeholderName" value="" placeholder="Enter name/Company">
             </div>
 
             <div class="txtb">
                 <label>Email</label>
-                <input type="text" name="" value="" placeholder="Enter an Email">
+                <input type="text" name="placeholderName" value="" placeholder="Enter an Email">
             </div>
 
             <div class="txtb">
