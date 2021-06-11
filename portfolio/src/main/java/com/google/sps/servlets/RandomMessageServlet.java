@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /** Handles requests sent to the /hello URL. Try running a server and navigating to /hello! */
-@WebServlet("/hello")
-public class HelloWorldServlet extends HttpServlet {
+@WebServlet("/randomMessage")
+public class RandomMessageServlet extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -25,8 +25,7 @@ public class HelloWorldServlet extends HttpServlet {
     int numMessages = possibleMessages.size();
     int randomIndex= (int)(Math.random() * numMessages);
     String todaysMessage = possibleMessages.get(randomIndex);
-    String responseStr = "<h1>And today's message is:"+todaysMessage +" </h1>";
     response.setContentType("text/html;");
-    response.getWriter().println(responseStr);
+    response.getWriter().println(todaysMessage);
   }
 }

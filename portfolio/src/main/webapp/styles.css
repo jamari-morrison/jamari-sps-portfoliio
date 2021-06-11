@@ -55,6 +55,40 @@ body{
       color: black;
   }
 
+
+  /*
+=============================
+RANDOM MESSAGE
+=============================
+*/
+    .randomMessageDiv{
+    position: absolute;  
+    width: 100%;
+    text-align: center;
+    top:65vh;
+      
+  }
+
+  .randomMessageButton{
+    background-color: #e7e7e7; 
+    color: black;
+    width: 150px;
+    height: 30px;
+    opacity:0.80;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .randomMessageTxt{
+    color:hsl(0, 0%, 98%);
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+
 /*
 =============================
 HAMBURGER BUTTON (mobile only)

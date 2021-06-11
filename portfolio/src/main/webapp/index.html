@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="styles.css">
     <script src="/scripts/floatingBoxAnimations.js" defer></script>
+    <script src="scripts/randomMessage.js"></script>
+
     <title>Jamari Morrison</title>
 </head>
 
@@ -52,6 +54,11 @@
     <!-- Note: each list item is a floating box in the background -->
     <div class="animation-area">
         <div class="title">Hi, I'm Jamari.</div>
+        <div class="randomMessageDiv" >
+            <p class="randomMessageTxt">Click the button to get a new message!</p> 
+            <div class="randomMessageButton" onclick="randomizeMessage();">New message</div> 
+        </div>
+
         <ul id="box-area">
             <li></li>
             <li></li>
