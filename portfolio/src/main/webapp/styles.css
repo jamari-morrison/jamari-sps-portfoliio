@@ -80,6 +80,9 @@ RANDOM MESSAGE
     margin-bottom: 20px;
     text-align: center;
     font-weight: 500;
+    z-index:100000000 ; 
+    position:relative;
+    user-select: none;
   }
 
   .randomMessageTxt{
