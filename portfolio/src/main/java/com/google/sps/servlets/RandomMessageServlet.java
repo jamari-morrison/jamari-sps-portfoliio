@@ -27,12 +27,9 @@ public class RandomMessageServlet extends HttpServlet {
     possibleMessages.add("My favorite game is Final Fantasy VII remake");
     possibleMessages.add("Did you know cherry blossoms fall at a rate of 5 centimeters per second?");
     possibleMessages.add("Griffith did everything wrong");
-
-
     possibleMessages.add("Just Monika.");
 
 
-   // String responseStr = "<h1>And today's message is:"+todaysMessage +" </h1>";
     response.setContentType("application/json;");
     String json = gson.toJson(possibleMessages);
     response.getWriter().println(json);
