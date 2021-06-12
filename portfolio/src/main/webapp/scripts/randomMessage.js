@@ -3,10 +3,12 @@ element.addEventListener("click", randomizeMessage, false);
 
 async function randomizeMessage() {
   const responseFromServer = await fetch('/randomMessage');
-  const textFromResponse = await responseFromServer.text();
+  const messagesJSON = await responseFromServer.json();
 
-  const msgContainer = document.getElementById('random-message-txt');
-  msgContainer.innerText = textFromResponse;
+    msgArrIndex = Math.floor(Math.random()*messagesJSON.length)
+   const msgContainer = document.getElementById('random-message-txt');
+
+   msgContainer.innerText = messagesJSON[msgArrIndex];
 }
 
 
