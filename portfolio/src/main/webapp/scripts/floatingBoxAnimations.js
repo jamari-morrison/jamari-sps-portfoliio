@@ -36,7 +36,7 @@ function setBoxThreeVars(){
 
 function setBoxFourVars(){
     boxes[4].style.left = Math.floor(Math.random() * 100) + "%";
-    const sizeFur = Math.floor(Math.random()*180) + 20;
+    const sizeFour = Math.floor(Math.random()*180) + 20;
     boxes[4].style.width= sizeFour + "px";
     boxes[4].style.height= sizeFour + "px";
 
@@ -67,5 +67,7 @@ boxes[3].addEventListener("animationiteration", setBoxThreeVars);
 boxes[4].addEventListener("animationiteration", setBoxFourVars);
 boxes[5].addEventListener("animationiteration", setBoxFiveVars);
 boxes[6].addEventListener("animationiteration", setBoxSixVars);
+
+
 
 
