@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="/scripts/floatingBoxAnimations.js" defer></script>
     <script src="/scripts/randomMessage.js" defer></script>
-    
+
 
 
     <title>Jamari Morrison</title>
@@ -48,7 +48,8 @@
     <h2 class="wrapper">
         <a href="https://www.linkedin.com/in/jamari-morrison-59247b194/" target="_blank"><img class="linkedin"
                 src="/images/linkedin.png" alt="aww"></a>
-        <a href="https://github.com/RedCater" target="_blank"><img class="github" src="/images/github.png" alt="github"></a>
+        <a href="https://github.com/RedCater" target="_blank"><img class="github" src="/images/github.png"
+                alt="github"></a>
 
         <a href="127.0.0.1:5500/CSSE232HW4"><span class="resume">RESUME</span></a>
         <a><span class="contactMe">CONTACT ME</span></a>
@@ -57,9 +58,9 @@
     <!-- Note: each list item is a floating box in the background -->
     <div class="animation-area">
         <div class="title">Hi, I'm Jamari.</div>
-        <div  class="randomMessageDiv">
-            <p id="random-message-txt" class="randomMessageTxt">Click the button to get a fact about me!</p> 
-                                    <div class="randomMessageButton" id="random-message-btn">New fact</div> 
+        <div class="randomMessageDiv">
+            <p id="random-message-txt" class="randomMessageTxt">Click the button to get a fact about me!</p>
+            <div class="randomMessageButton" id="random-message-btn">New fact</div>
         </div>
 
         <ul id="box-area">
@@ -231,31 +232,31 @@
     </div>
     <script src="/scripts/hamburgerMenu.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 
 </body>
