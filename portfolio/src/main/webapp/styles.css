@@ -701,6 +701,26 @@ PROJECTS SECTION
 
 /*
 =============================
+TRANSLATION SECTION
+=============================
+*/
+
+.translation-area{
+    height: 100vh;
+    z-index: 10000001;
+    position: relative;
+    top: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    color:hsl(0, 0%, 97%);
+
+
+}
+#text-to-translate {
+    z-index: 10000001;
+}
+/*
+=============================
 CONTANT ME SECTION
 =============================
 */

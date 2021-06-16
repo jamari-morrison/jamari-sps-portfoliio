@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="/scripts/floatingBoxAnimations.js" defer></script>
     <script src="/scripts/randomMessage.js" defer></script>
+    <script src="/scripts/Translate.js" defer></script>
 
 
 
@@ -205,7 +206,23 @@
         </div>
 
 
+        <div class="translation-area">
+            <h1 class="translation-header">English-Japanese Translate!</h1>
 
+            <label for="select-language">Select translation mode:</label>
+            <select name="select-language" id="select-language">
+                <option value="es to ja">English -> Japanese</option>
+                <option value="ja to es">Japanese -> English</option>
+            </select>
+            <button id="translate-submit-btn">Translate!</button>
+            <textarea id="text-to-translate"></textarea>
+            <h1 id="translated-text"></h1>
+
+
+
+        </div>
+
+        <!--
         <div class="contact-form">
             <div class="scroll-target"></div>
             <h1>Let's talk (not yet functional)</h1>
@@ -227,6 +244,7 @@
             <a class="btn">Submit</a>
 
         </div>
+    -->
 
 
     </div>

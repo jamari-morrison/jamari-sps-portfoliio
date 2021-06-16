@@ -27,6 +27,14 @@
       <version>4.0.1</version>
     </dependency>
 
+
+    <!--Google translation library -->
+    <dependency>
+        <groupId>com.google.cloud</groupId>
+        <artifactId>google-cloud-translate</artifactId>
+        <version>1.70.0</version>
+    </dependency>
+
     <dependency>
     <!-- Gson -->
         <groupId>com.google.code.gson</groupId>
