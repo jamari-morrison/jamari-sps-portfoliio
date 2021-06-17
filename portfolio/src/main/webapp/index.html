@@ -222,29 +222,31 @@
 
         </div>
 
-        <!--
+        
         <div class="contact-form">
+            <form method="POST" action="/form-handler">
             <div class="scroll-target"></div>
             <h1>Let's talk (not yet functional)</h1>
-            <div class="txtb">
+            <div class="txtb" class="top-level-object">
                 <label>Name/Company</label>
-                <input type="text" name="name/company" value="" placeholder="Enter name/Company">
+                <input type="text" name="name/company" value="" placeholder="Enter name/Company" >
             </div>
 
-            <div class="txtb">
+            <div class="txtb" class="top-level-object">
                 <label>Email</label>
                 <input type="text" name="email" value="" placeholder="Enter an Email">
             </div>
 
-            <div class="txtb">
+            <div class="txtb" class="top-level-object">
                 <label>Message:</label>
-                <textarea></textarea>
+                <textarea name="message"></textarea>
             </div>
 
-            <a class="btn">Submit</a>
+            <input type="submit" class="btn" class="top-level-object">Submit</input>
+            </form>
 
         </div>
-    -->
+    
 
 
     </div>
