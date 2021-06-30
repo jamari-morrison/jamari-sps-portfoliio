@@ -701,6 +701,25 @@ PROJECTS SECTION
 
 /*
 =============================
+TRANSLATION SECTION
+=============================
+*/
+
+.translation-area{
+    height: 100vh;
+    position: relative;
+    top: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    color:hsl(0, 0%, 97%);
+
+
+}
+#text-to-translate {
+    z-index: 10000001;
+}
+/*
+=============================
 CONTANT ME SECTION
 =============================
 */
@@ -758,6 +777,7 @@ CONTANT ME SECTION
     margin: 8px 0;
     padding: 12px 18px;
     border-radius: 8px;
+    z-index: 1001;
 }
 
 .txtb label{
@@ -786,6 +806,7 @@ CONTANT ME SECTION
     cursor: pointer;
     margin-top: 8px;
     width: 100%;
+    z-index: 1001;
 
 }
 
@@ -1098,8 +1119,7 @@ MOBILE SECTION (vertical view)
         top: calc(100vh + 2800px);
     }
 
-
-
+   
     .contact-images{
             
           display: flex;
